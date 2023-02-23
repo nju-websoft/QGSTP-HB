@@ -42,7 +42,7 @@ Directory /src/main/java contains all the source code based on JDK 11.
 + TBD Memory
 
 ## Data
-Our dataset is available on [zenodo](https://zenodo.org/record/7619632).
+Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7619632.svg)](https://doi.org/10.5281/zenodo.7619632).
 
 Import the data to your MySQL database.
 
