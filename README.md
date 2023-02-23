@@ -39,7 +39,7 @@ Directory /src/main/java contains all the source code based on JDK 11.
 + MySQL
 + JDK11
 + Maven
-+ TBD Memory
++ 180G Memory
 
 ## Data
 Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7619632.svg)](https://doi.org/10.5281/zenodo.7619632).
@@ -74,7 +74,6 @@ bash Experiment_for_Table_3.sh
 ```
 
 For each graph, the result for each query is record in file `Table_3_[graph].log`. For example, `Table_3_mondial.log` contains the results for all 39 queries, include $\alpha=0.1$, $\alpha=0.5$ and $\alpha=0.9$. And we can find the query result for query 1 like:
-TBD
 ```
 Expr 1:
 Generating keyword...
