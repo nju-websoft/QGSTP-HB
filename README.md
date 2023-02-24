@@ -49,7 +49,7 @@ Import the data to your MySQL database.
 
 ### Hub Label Construction
 
-Unfortunately, due to the limit of space, we don't directly provide the data of hub labeling for DBpedia and LUBM-250U. You should construct the hub labeling. Otherwise, if you don't want to do that, you may choose to run the simple script (marked by `_simple`) to run the algorithm without DBpedia and LUBM-250U.
+Unfortunately, due to the limit of space, we don't directly provide the data of hub labeling for `DBpedia` and `LUBM-250U`. You should construct the hub labeling. Otherwise, if you don't want to do that, you may choose to run the simple script (marked by `_simple`) to run the algorithm without `DBpedia` and `LUBM-250U`.
 
 First set the configuration `/src/main/resources/config.properties` as follows:
 + `IP`, `PORT` : the IP and the port to connect to your MySQL database,
