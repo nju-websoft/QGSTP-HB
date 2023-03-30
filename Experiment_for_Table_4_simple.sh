@@ -2,7 +2,7 @@
 mvn clean package
 
 graphs=('lubm_2u' 'dbpedia_50k')
-queries=(250 183)
+queries=(50 183)
 #queries=(183)
 #graphs=("dbpedia_50k")
 

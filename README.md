@@ -42,14 +42,14 @@ Directory /src/main/java contains all the source code based on JDK 11.
 + 180G Memory
 
 ## Data
-Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7619632.svg)](https://doi.org/10.5281/zenodo.7619632).
+Our dataset is available on [![DOI](https://zenodo.org/record/7784147)](https://zenodo.org/record/7784147).
 
 Import the data to your MySQL database.
 
 
 ### Hub Label Construction
 
-Unfortunately, due to the limit of space, we don't directly provide the data of hub labeling for `DBpedia` and `LUBM-250U`. You should construct the hub labeling. Otherwise, if you don't want to do that, you may choose to run the simple script (marked by `_simple`) to run the algorithm without `DBpedia` and `LUBM-250U`.
+Unfortunately, due to the limit of space, we don't directly provide the data of hub labeling for `DBpedia` and `LUBM-250U`. You might take a long time to construct the hub labeling. Otherwise, if you don't want to do that, you may choose to run the simple script (marked by `_simple`) to run the algorithm without `DBpedia` and `LUBM-250U`.
 
 First set the configuration `/src/main/resources/config.properties` as follows:
 + `IP`, `PORT` : the IP and the port to connect to your MySQL database,
