@@ -42,7 +42,7 @@ Directory /src/main/java contains all the source code based on JDK 11.
 + 180G Memory
 
 ## Data
-Our dataset is available on [![DOI](https://zenodo.org/record/7784147)](https://zenodo.org/record/7784147).
+Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7784147.svg)](https://zenodo.org/record/7784147).
 
 Import the data to your MySQL database.
 
