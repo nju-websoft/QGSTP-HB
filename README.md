@@ -119,7 +119,7 @@ The result is recorded in `Table_5_[graph].log`, `Table_6_woPR_[graph].log`, `Ta
 
 ## About the EO Algorithm and the B3F Algorithm
 
-Please refer the following repositories if you want to run other algorithms in our experiments:
+Please refer to the following repositories if you want to run other algorithms in our experiments:
 
 + the EO algorithm: [QGSTP](https://github.com/nju-websoft/QGSTP),
 + the B3F algorithm: [B3F](https://github.com/nju-websoft/B3F).
