@@ -17,7 +17,7 @@ This is the source code of the paper 'A Fast Hop-Biased Approximation Algorithm 
   + Scalability Experiment (Figure 3 and Figure 4)
   + Effectiveness Experiment (Table 4)
   + Ablation Study (Table 5 and Table 6)
-+ About the EO Algorithm and the B$^3$F Algorithm
++ About the EO Algorithm and the B3F Algorithm
 + License
 + Citation
 
@@ -117,12 +117,12 @@ bash Experiment_for_Table_6.sh
 
 The result is recorded in `Table_5_[graph].log`, `Table_6_woPR_[graph].log`, `Table_6_woPP_[graph].log`, `Table_6_woPI_[graph].log`. After obtaining the runtime for each query under each setting, we can calculate the average runtime in Table 5 and Table 6.
 
-## About the EO Algorithm and the B$^3$F Algorithm
+## About the EO Algorithm and the B3F Algorithm
 
 Please refer the following repository if you want to run other algorithms in our experiments:
 
 + the EO algorithm: [QGSTP](https://github.com/nju-websoft/QGSTP),
-+ the B$^3$F algorithm: [B3F](https://github.com/nju-websoft/B3F).
++ the B3F algorithm: [B3F](https://github.com/nju-websoft/B3F).
 
 
 ## License
