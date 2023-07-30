@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 mvn clean package
 
-graphs=('mondial' 'opencyc' 'lmdb' 'yago')
-queries=(39 50 200 32)
-#graphs=("dbpedia_50k")
+graphs=('lubm_2u' 'dbpedia_50k')
+queries=(50 183)
 #queries=(183)
+#graphs=("dbpedia_50k")
 
 n=${#graphs[@]}
 

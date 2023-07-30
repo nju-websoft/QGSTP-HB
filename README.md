@@ -13,10 +13,10 @@ This is the source code of the paper 'A Fast Hop-Biased Approximation Algorithm 
 + Data
   + Hub Label Construction
 + Run the HB Algorithm
-  + Efficiency Experiment (Table 3)
+  + Efficiency Experiment (Table 2)
   + Scalability Experiment (Figure 3 and Figure 4)
-  + Effectiveness Experiment (Table 4)
-  + Ablation Study (Table 5 and Table 6)
+  + Effectiveness Experiment (Table 3)
+  + Ablation Study (Table 4)
 + Other Algorithms
 + License
 + Citation
@@ -68,13 +68,13 @@ First set the configuration `/src/main/resources/config.properties` as follows:
 + `USER`,`PASS` : the username and the password to log in your MySQL database.
 
 
-### Efficiency Experiment (Table 3) 
+### Efficiency Experiment (Table 2) 
 Run the following script:
 ```shell
-bash Experiment_for_Table_3.sh
+bash Experiment_for_Table_2.sh
 ```
 
-For each graph, the result for each query is record in file `Table_3_[graph].log`. For example, `Table_3_mondial.log` contains the results for all 39 queries, include $\alpha=0.1$, $\alpha=0.5$ and $\alpha=0.9$. And we can find the query result for query 1 like:
+For each graph, the result for each query is record in file `Table_2_[graph].log`. For example, `Table_2_mondial.log` contains the results for all 39 queries, include $\alpha=0.1$, $\alpha=0.5$ and $\alpha=0.9$. And we can find the query result for query 1 like:
 ```
 Expr 1:
 Generating keyword...
@@ -88,7 +88,7 @@ alpha= 0.1
 Runtime: 0.169 s.
 Complete! cost(T)=0.7636719283306959.
 ```
-After obtaining the runtime for each query, we can calculate the average runtime in Table 3.
+After obtaining the runtime for each query, we can calculate the average runtime in Table 2.
 
 
 ### Scalability Experiment (Figure 3 and Figure 4)
@@ -100,22 +100,21 @@ bash Experiment_for_Figure_3_and_4.sh
 Then we get the similar result `Figure_3_and_4_[graph].log`. After obtaining the runtime, the number of groups (g) and the size of the smallest group (f), we can draw Figure 3 and 4.
 
 
-### Effectiveness Experiment (Table 4)
+### Effectiveness Experiment (Table 3)
 Run the following script:
+```shell
+bash Experiment_for_Table_3.sh
+```
+
+Then we get the similar result `Table_3_[graph].log`. We can calculate empirical approximation ratio in Table 3 by combining the cost of the answer to each query, and the optimum answer (computed by B3F additionally).
+
+### Ablation Study (Table 4)
+Run the following scripts:
 ```shell
 bash Experiment_for_Table_4.sh
 ```
 
-Then we get the similar result `Table_4_[graph].log`. We can calculate empirical approximation ratio in Table 4 by combining the cost of the answer to each query, and the optimum answer (computed by B3F additionally).
-
-### Ablation Study (Table 5 and Table 6)
-Run the following scripts:
-```shell
-bash Experiment_for_Table_5.sh
-bash Experiment_for_Table_6.sh
-```
-
-The result is recorded in `Table_5_[graph].log`, `Table_6_woPR_[graph].log`, `Table_6_woPP_[graph].log`, `Table_6_woPI_[graph].log`. After obtaining the runtime for each query under each setting, we can calculate the average runtime in Table 5 and Table 6.
+The result is recorded in `Table_4_woPruning_[graph].log`, `Table_4_woPP_[graph].log`, `Table_4_woPI_[graph].log`. After obtaining the runtime for each query under each setting, we can calculate the average runtime in Table 4.
 
 ## Other Algorithms
 
