@@ -6,10 +6,6 @@ import org.apache.jena.rdf.model.StmtIterator;
 
 import java.sql.SQLException;
 
-/**
- * @Author qkoqhh
- * @Date 2020-11-01
- */
 public class ReadLUBM extends ReadMondial{
     /**
      * Create the experiment database, and initialize the tables: nodes, edges, keyword, keymap

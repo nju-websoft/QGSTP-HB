@@ -3,7 +3,6 @@ package graphtheory.hub;
 
 /**
  * Pay attention!!! Please call @hasNext before calling @next even if you are sure the return value of @hasNext
- * @author qkoqhh
  */
 abstract public class HubIter {
     int p, cnt;

@@ -6,11 +6,6 @@ import driver.work.RetInfo;
 
 import java.util.Random;
 
-/**
- * The algorithm to solve the QGST problem.
- * @Author qkoqhh
- * @Date 2020-11-9
- */
 abstract public class Algorithm {
     final static protected double inf=Double.MAX_VALUE;
     final static protected int MAXINT=Integer.MAX_VALUE/100;

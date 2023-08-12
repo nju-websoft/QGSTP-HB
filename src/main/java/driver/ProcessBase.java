@@ -12,13 +12,6 @@ import java.util.LinkedList;
 
 import static graphtheory.Structure.alpha;
 
-/**
- * Extract the common part of all the process class
- * Before initialize the class, please initialize class @Config
- * It is not allowed to implement the main function in this class and its subclass
- * @Date 2020-12-22
- * @Author qkoqhh
- */
 abstract public class ProcessBase {
     // JDBC Driver and Database URL
     public static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";

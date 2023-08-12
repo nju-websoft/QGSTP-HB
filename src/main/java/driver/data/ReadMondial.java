@@ -33,8 +33,6 @@ import static java.lang.Math.*;
 /**
  * Used to read mondial, probably some part of the code can be used to read other form of KG.
  * The query file is written in file already.
- * @Author qkoqhh
- * @Date 2020-10-31
  */
 public class ReadMondial extends DBbuilder{
 

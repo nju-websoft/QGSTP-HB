@@ -4,10 +4,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-/**
- * @Date 2020-12-22
- * @Author qkoqhh
- */
 public class SQL_batch{
     static final int batch_size=100000;
     private int cnt;

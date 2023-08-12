@@ -13,8 +13,6 @@ import java.sql.SQLException;
 
 /**
  * A runner to process some insignificant work
- * @Author qkoqhh
- * @Date 2021-1-11
  */
 public class Run1 extends RunBase {
     static final String defalut_progress="ReadYago";

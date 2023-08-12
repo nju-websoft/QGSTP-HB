@@ -11,8 +11,6 @@ import static java.lang.Math.abs;
 
 /**
  * Run algorithm on dbpedia
- * @Author qkoqhh
- * @Date 2020-11-03
  */
 public class Worker3 extends WorkerBase{
 

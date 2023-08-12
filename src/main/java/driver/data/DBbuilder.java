@@ -35,8 +35,6 @@ import java.sql.*;
  *                   And the table is created in genvec.py.
  *
  *
- * @Author qkoqhh
- * @Date 2020-10-29
  */
 public class DBbuilder extends ProcessBase {
     // connection to database

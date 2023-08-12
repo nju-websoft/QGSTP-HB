@@ -6,8 +6,6 @@ import java.util.spi.LocaleServiceProvider;
 
 /**
  * Represent a query
- * @Author qkoqhh
- * @Date 12/10/2020
  */
 
 public class Query {

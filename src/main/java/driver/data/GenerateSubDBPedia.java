@@ -55,8 +55,6 @@ import static java.lang.Integer.min;
  *          content: store the map from subgraph query id(id) to origin graph query id(origin)
  *
  *
- * @Author qkoqhh
- * @Date 2020-12-9
  */
 public class GenerateSubDBPedia extends ProcessBase {
 

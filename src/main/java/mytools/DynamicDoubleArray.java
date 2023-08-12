@@ -10,8 +10,6 @@ import static java.lang.Math.min;
 /**
  * Variant from DynamicArray but simplify some thing to speed up
  * Can only used in our algorithm
- * @author qkoqhh
- * @Date 2022-4-1
  */
 public class DynamicDoubleArray {
     final double[] a;

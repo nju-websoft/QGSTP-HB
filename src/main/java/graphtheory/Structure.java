@@ -8,8 +8,6 @@ import java.util.*;
 
 /**
  * Various graph structure
- * @Author qkoqhh
- * @Date 2020-10-12
  */
 public class Structure{
     public static double alpha,beta;

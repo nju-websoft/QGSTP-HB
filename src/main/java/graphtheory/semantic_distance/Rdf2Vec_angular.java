@@ -6,8 +6,6 @@ import static java.lang.Math.*;
 
 /**
  * Map the node to vector and let the angle between the vector as sd
- * @Author qkoqhh
- * @Date 2020-10-29
  */
 public class Rdf2Vec_angular extends SD {
     static final int vec_length=10;

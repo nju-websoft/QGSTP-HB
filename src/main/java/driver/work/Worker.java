@@ -4,8 +4,6 @@ import java.sql.SQLException;
 
 /**
  * Run algorithm on mondial
- * @Author qkoqhh
- * @Date 2020-11-03
  */
 public class Worker extends WorkerBase{
     Worker(String graphname){

@@ -7,8 +7,6 @@ import org.apache.jena.rdf.model.StmtIterator;
 
 /**
  * The graph file has been prepared previously.
- * @author qkoqhh
- * @Date 2022-6-26
  */
 public class ReadLinkedmdb extends ReadMondial{
     /**

@@ -29,8 +29,6 @@ import java.util.*;
  *          format: (query - keyword)
  *          content: store the keywords of a query
  *
- * @Author qkoqhh
- * @Date 2020-11-4
  */
 public class ReadDBpedia extends ReadMondial{
     /**

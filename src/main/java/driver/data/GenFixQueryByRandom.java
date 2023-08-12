@@ -9,8 +9,6 @@ import java.util.*;
 /**
  * Generate fix query in database randomly
  * Refer to the document of method gen_query()
- * @Author qkoqhh
- * @Date 2020-12-30
  */
 public class GenFixQueryByRandom extends ProcessBase {
     protected GenFixQueryByRandom(String graphname) {

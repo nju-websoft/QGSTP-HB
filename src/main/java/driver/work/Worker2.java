@@ -9,8 +9,6 @@ import java.util.LinkedList;
 
 /**
  * Run algorithm on lubm.
- * @Author qkoqhh
- * @Date 2020-11-3
  */
 public class Worker2 extends WorkerBase {
     Worker2(String graphname, Algorithm_type algorithmType, double alpha) {

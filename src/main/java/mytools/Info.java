@@ -12,8 +12,6 @@ import java.util.List;
  * Enabled by config option "record each query"
  * When the option enabled, we first create a database ahead. The class @Info will be parsed and the database will generate the column according to the variable.
  * And then after each experiment, we fill the class and store in the database.
- * @Date 2020-12-28
- * @Author qkoqhh
  */
 public class Info {
     /**

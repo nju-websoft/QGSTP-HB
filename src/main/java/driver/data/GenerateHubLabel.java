@@ -18,8 +18,6 @@ import static java.lang.Math.min;
 /**
  * Generate Hub Label for each graph
  * For each graph, we generate two kinds of labels_list, one for graph based on node weight(sal), another based on edge weight(sd)
- * @Author qkoqhh
- * @Date 2020-12-14
  */
 public class GenerateHubLabel extends ProcessBase {
 

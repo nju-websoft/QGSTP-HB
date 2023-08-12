@@ -10,13 +10,6 @@ import java.util.*;
 import static graphtheory.Structure.*;
 import static java.lang.Math.*;
 
-/**
- * Plus vnum in evaluation in @Expr9
- * The approximation ratio is (g-1)|V|
- * More detail in meeting document 2022.3.14
- * @Author qkoqhh
- * @Date 2020-2-20
- */
 public class HB extends Algorithm {
     public HB(Graph G) {
         super(G);

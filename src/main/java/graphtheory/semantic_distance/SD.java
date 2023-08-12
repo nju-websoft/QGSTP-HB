@@ -10,8 +10,6 @@ import java.util.List;
 /**
  * Define the function of sd.
  * Please get the material used in cal() first
- * @Author qkoqhh
- * @Date 29/10/2020
  */
 public abstract class SD {
     public abstract double cal(int i, int j);

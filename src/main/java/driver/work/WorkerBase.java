@@ -15,8 +15,6 @@ import java.util.*;
 /**
  * The collection of function to read the data and run the algorithm
  * Need to implement the progress manually
- * @Author qkoqhh
- * @Date 2020-11-3
  */
 public abstract class WorkerBase extends ProcessBase {
     protected Random rand=new Random();

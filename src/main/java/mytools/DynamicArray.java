@@ -7,8 +7,6 @@ import java.util.List;
 /**
  * In some scenarios, we write some values into some array where the number of values is far less than the actually space.
  * The array maintain a written tag @v and support clearing the array according to the tag instead of processing on the whole array.
- * @author qkoqhh
- * @Date 2022-4-1
  */
 abstract public class DynamicArray<E> {
     final Object[] a;
