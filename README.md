@@ -16,7 +16,7 @@ This is the source code of the paper 'A Fast Hop-Biased Approximation Algorithm 
   + Efficiency Experiment (Table 2)
   + Scalability Experiment (Figure 3 and Figure 4)
   + Effectiveness Experiment (Table 3)
-  + Ablation Study (Table 4)
+  + Ablation Study (Table 5 and Table 6)
 + Other Algorithms
 + License
 + Citation
@@ -43,7 +43,7 @@ Directory /src/main/java contains all the source code based on JDK 11.
 + 180G Memory
 
 ## Data
-Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7784147.svg)](https://zenodo.org/record/7784147).
+Our dataset is available on [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8330565.svg)](https://zenodo.org/record/8330565).
 
 Import the data to your MySQL database.
 
@@ -136,7 +136,7 @@ Please refer to the following repositories if you want to run other algorithms i
 
 
 ## License
-This project is licensed under the GPL License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the apache 2.0 License - see the [LICENSE](LICENSE) file for details
 
 ## Citation
 If you think our algorithms or our experimental results are useful, please kindly cite our paper.
