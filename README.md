@@ -13,10 +13,12 @@ This is the source code of the paper 'A Fast Hop-Biased Approximation Algorithm 
 + Data
   + Hub Label Construction
 + Run the HB Algorithm
-  + Efficiency Experiment (Table 2)
-  + Scalability Experiment (Figure 3 and Figure 4)
-  + Effectiveness Experiment (Table 3)
-  + Ablation Study (Table 5 and Table 6)
+  + Experiment 1 (Table 2)
+  + Experiment 2 (Figure 3 and Figure 4)
+  + Experiment 3 (Table 3)
+  + Experiment 4 (Table 4)
+  + Extended Experiment 1 (Figure 5)
+  + Extended Experiment 4 (Table 6 and Table 7)
 + Other Algorithms
 + License
 + Citation
